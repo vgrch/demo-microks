@@ -3,7 +3,8 @@
 		"_postman_id": "7947b5e2-edb6-4ef2-8c0b-2aefdaa4573c",
 		"name": "Optimus dev mocks",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
-            "description": "version=1.0 - Bla bla",
+                "description": "Optimus dev env mock",
+		"version": "1.0",
 		"_exporter_id": "1859549"
 	},
 	"item": [
