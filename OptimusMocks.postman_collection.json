@@ -54,8 +54,8 @@
 								"header": [],
 								"url": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/XXXXXXX"
 							},
-							"status": "OK",
-							"code": 200,
+							"status": "Not Found",
+							"code": 404,
 							"_postman_previewlanguage": "json",
 							"header": [
 								{
@@ -97,8 +97,8 @@
 								"header": [],
 								"url": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/YYYYYYY"
 							},
-							"status": "OK",
-							"code": 200,
+							"status": "Unauthorized",
+							"code": 401,
 							"_postman_previewlanguage": "json",
 							"header": [
 								{
