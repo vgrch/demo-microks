@@ -2,8 +2,8 @@
 	"info": {
 		"_postman_id": "7947b5e2-edb6-4ef2-8c0b-2aefdaa4573c",
 		"name": "Optimus dev mocks",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-        "description": "version=1.0 - Bla bla",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		 "description": "version=1.0 - Bla bla bla",
 		"_exporter_id": "1859549"
 	},
 	"item": [
@@ -15,23 +15,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "http://externalinteg.kapitalbank.az/api/iamas/id-card/by/pin/XXXXXXX",
-							"protocol": "http",
-							"host": [
-								"externalinteg",
-								"kapitalbank",
-								"az"
-							],
-							"path": [
-								"api",
-								"iamas",
-								"id-card",
-								"by",
-								"pin",
-								"XXXXXXX"
-							]
-						}
+						"url": "http://externalinteg.kapitalbank.az/api/iamas/id-card/by/pin/XXXXXXX"
 					},
 					"response": [
 						{
@@ -39,23 +23,7 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"url": {
-									"raw": "http://externalinteg.kapitalbank.az/api/iamas/id-card/by/pin/XXXXXXX",
-									"protocol": "http",
-									"host": [
-										"externalinteg",
-										"kapitalbank",
-										"az"
-									],
-									"path": [
-										"api",
-										"iamas",
-										"id-card",
-										"by",
-										"pin",
-										"XXXXXXX"
-									]
-								}
+								"url": "http://externalinteg.kapitalbank.az/api/iamas/id-card/by/pin/XXXXXXX"
 							},
 							"status": "OK",
 							"code": 200,
@@ -76,21 +44,7 @@
 					"request": {
 						"method": "GET",
 						"header": [],
-						"url": {
-							"raw": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/5EY4WTT",
-							"protocol": "http",
-							"host": [
-								"dev",
-								"es-elma",
-								"kapitalcard",
-								"az"
-							],
-							"path": [
-								"objects",
-								"KPTL_SpecialClients",
-								"5EY4WTT"
-							]
-						}
+						"url": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/5EY4WTT"
 					},
 					"response": [
 						{
@@ -98,21 +52,7 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"url": {
-									"raw": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/XXXXXXX",
-									"protocol": "http",
-									"host": [
-										"dev",
-										"es-elma",
-										"kapitalcard",
-										"az"
-									],
-									"path": [
-										"objects",
-										"KPTL_SpecialClients",
-										"XXXXXXX"
-									]
-								}
+								"url": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/XXXXXXX"
 							},
 							"status": "OK",
 							"code": 200,
@@ -155,21 +95,7 @@
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"url": {
-									"raw": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/YYYYYYY",
-									"protocol": "http",
-									"host": [
-										"dev",
-										"es-elma",
-										"kapitalcard",
-										"az"
-									],
-									"path": [
-										"objects",
-										"KPTL_SpecialClients",
-										"YYYYYYY"
-									]
-								}
+								"url": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/YYYYYYY"
 							},
 							"status": "OK",
 							"code": 200,
