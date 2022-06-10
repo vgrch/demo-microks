@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "f6a167b5-f21f-49e8-a1ed-ff897c9c910b",
+		"name": "OptimusPreprodMock",
+        "description": "version=1.0 - Check relevant person over ELMADB mock",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "1859549"
+	},
+	"item": [
+		{
+			"name": "elma-relevant-person",
+			"item": [
+				{
+					"name": "check-by-pin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://dev.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/XXXYXXX"
+					},
+					"response": [
+						{
+							"name": "check-by-pin",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://pre.es-elma.kapitalcard.az/objects/KPTL_SpecialClients/XXXYXXX"
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": null,
+							"cookie": [],
+							"body": "{\n    \"isExist\": false\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
